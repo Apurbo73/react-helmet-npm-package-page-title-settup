@@ -1,16 +1,9 @@
-
-import './App.css'
-import { Helmet } from 'react-helmet'
+import "./App.css";
+import PageTitle from "./PageTitle";
 function App() {
-
-  return (
-  <div>
-  <Helmet>
-    <title>Home Page</title>
-  </Helmet>
-    hi
-  </div>
-  )
+  return <div>
+    <PageTitle title="Home Page"></PageTitle>
+  </div>;
 }
 
-export default App
+export default App;
